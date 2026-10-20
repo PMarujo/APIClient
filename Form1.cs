@@ -16,5 +16,12 @@ namespace APIClient
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form2 janela = new Form2();
+            janela.Show();
+            this.Hide();
+        }
     }
 }
